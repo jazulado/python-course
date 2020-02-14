@@ -1,4 +1,4 @@
-# my-first-py-proj
+# python-course
 ```
 git add .
 ```
