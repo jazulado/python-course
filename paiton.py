@@ -1,6 +1,6 @@
-edad1 = int(input("primero"))
-edad2 = int(input("segundo"))
+edad1 = int(input("primer num "))
+edad2 = int(input("segundo num "))
 
-total = edad1+edad2
+total = edad1 + edad2
   
 print("Dos edades: " + str(total))
