@@ -16,4 +16,4 @@ cmdkey /delete:LegacyGeneric:target=git:https://github.com
 ```
 para borrar  a
 git config user.email
-git config user.email "###@gmail.com"
+git config user.email "###@hotmail.com"
