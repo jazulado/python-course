@@ -31,7 +31,7 @@ else:
 if podraMatricular == 1:
     if modalidad == "pregrado":
         print("creditos: " + str(creditos) + " total a pagar: " + str(creditos* 50000))
-        print("descuento: " + str((creditos*50000)*descuento) + " total con descuento: " + str((creditos*50000)*(1-descuento)))
+        print("descuento: " + str((creditos*50000)*descuento) + " total con adescuento: " + str((creditos*50000)*(1-descuento)))
     if modalidad == "posgrado":
         print("creditos: " + str(creditos) + " total a pagar: " + str(creditos* 300000))
         print("descuento: " + str((creditos*300000)*descuento) + " total con descuento: " + str((creditos*300000)*(1-descuento)))
