@@ -10,3 +10,8 @@ git commit -m "mensaje"
 git push origin master 
 ```
 para subir los cambios a la nube
+
+```
+cmdkey /delete:LegacyGeneric:target=git:https://github.com
+```
+para borrar  a
