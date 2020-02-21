@@ -15,7 +15,8 @@ if modalidad == "pregrado":
         creditos = 20
         descuento = 0
     elif promedio < 3.5 and promedio >= 2.5:
-        print("Mayor: " + str(total))
+        creditos = 15
+        descuento = 0
     elif promedio < 2.5:
         print("no podra matricularse")
         podraMatricular = 0
@@ -31,3 +32,6 @@ if podraMatricular == 1:
     if modalidad == "pregrado":
         print("creditos: " + str(creditos) + " total a pagar: " + str(creditos* 50000))
         print("descuento: " + str((creditos*50000)*descuento) + " total con descuento: " + str((creditos*50000)*(1-descuento)))
+    if modalidad == "posgrado":
+        print("creditos: " + str(creditos) + " total a pagar: " + str(creditos* 300000))
+        print("descuento: " + str((creditos*300000)*descuento) + " total con descuento: " + str((creditos*300000)*(1-descuento)))
