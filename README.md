@@ -20,6 +20,6 @@ cmdkey /delete:LegacyGeneric:target=git:https://github.com
 eliminar la cuenta ya guardada
 
 ```
-git config user.email "###@gmail.com"
+git config user.email "###@hotmail.com"
 ```
 para asociar la cuenta con el correo

@@ -4,6 +4,7 @@ creditos = 0
 descuento = 0
 podraMatricular = 1
 
+
 if modalidad == "pregrado":
     if promedio >= 4.5:
         creditos = 28
